@@ -9,6 +9,7 @@ NVNC/RobotClient.cs
 # User-specific files
 *.suo
 *.user
+*.userosscache
 *.sln.docstates
 *.sln.DotSettings
 
@@ -22,7 +23,6 @@ bld/
 [Bb]in/
 [Oo]bj/
 
-
 # Roslyn cache directories
 *.ide/
 
@@ -30,7 +30,7 @@ bld/
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 
-#NUNIT
+# NUNIT
 *.VisualState.xml
 TestResult.xml
 
@@ -91,7 +91,7 @@ _ReSharper*/
 *.[Rr]e[Ss]harper
 *.DotSettings.user
 
-# JustCode is a .NET coding addin-in
+# JustCode is a .NET coding add-in
 .JustCode
 
 # TeamCity is a build add-in
@@ -130,21 +130,11 @@ publish/
 # Publish Web Output
 *.[Pp]ublish.xml
 *.azurePubxml
-## TODO: Comment the next line if you want to checkin your
-## web deploy settings but do note that will include unencrypted
-## passwords
 #*.pubxml
 
 # NuGet Packages Directory
 packages/*
-## TODO: If the tool you use requires repositories.config
-## uncomment the next line
 #!packages/repositories.config
-
-# Enable "build/" folder in the NuGet Packages folder since
-# NuGet packages use it for MSBuild targets.
-# This line needs to be after the ignore of the build folder
-# (and the packages folder if the line above has been uncommented)
 !packages/build/
 
 # Windows Azure Build Output
@@ -194,3 +184,6 @@ FakesAssemblies/
 GeneratedArtifacts/
 _Pvt_Extensions/
 ModelManifest.xml
+
+# Visual Studio temporary files
+.vs/
